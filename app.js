@@ -4,7 +4,7 @@ const mongoose=require("mongoose");
 app.use(express.json());
 
 const mongoUrl = 
-"mongodb+srv://jennasnowlee:<password>@cluster0.t9jljsn.mongodb.net/?retryWrites=true&w=majority";
+"mongodb+srv://jennasnowlee:jennasleenow@cluster0.t9jljsn.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
 .connect(mongoUrl,{
